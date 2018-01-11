@@ -1,0 +1,87 @@
+header, footer {
+  max-width: 100%;
+}
+
+hr {
+  width: 100%;
+  color: black;
+}
+
+.name {
+  text-align: right;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #2d3c49;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#subtitle {
+  text-align: right;
+  font-family: 'Alegreya', serif;
+  color: #7d97ad;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+#main-img {
+  width: 75%;
+  height: 200px;
+  padding: 0 10% 0 10%;
+  margin-bottom: 20px;
+}
+
+article {
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+}
+
+.port-img {
+  width: 100%;
+}
+
+h2 {
+  width: 100%;
+  color: #02b3e4;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+main {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 300px){
+  article {
+    width: 100%;
+  }
+
+  img {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 550px){
+  article {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 750px){
+  article {
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 751px){
+  article {
+    width: 33.3%;
+  }
+
+  main {
+    margin-left: 15%; 
+    margin-right: 15%;
+  }
+}
